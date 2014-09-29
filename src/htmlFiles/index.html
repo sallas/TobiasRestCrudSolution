@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>REST CRUD Exercise</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.0.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="outer">
+      <div id="header">REST CRUD Exercise</div>
+      <div id="all_persons">
+        <select id="persons" size="2" style="min-width: 150px;height: 200px;">
+        </select>
+        <div>
+          <button id="delete">Delete Selected</button>
+        </div>
+      </div>
+      <div id="details">
+        <div><label>id</label><input id="id" disabled="disabled" type="text"/></div>
+        <div><label>First Name</label><input id="fname" disabled="disabled" type="text"/></div>
+        <div><label>Last Name</label><input id="lname" disabled="disabled" type="text"/></div>
+        <div><label>Phone</label><input id="phone" disabled="disabled" type="text"/></div>
+      </div>
+      <div>
+        <button id="btn_add">Add Person</button>
+        <button id="btn_save" disabled="disabled">Save Person</button>
+        <button id="btn_cancel" disabled="disabled">Cancel</button>
+      </div>
+      <p>TODO: Add the edit functionality </p>
+    </div>
+  </body>
+</html>

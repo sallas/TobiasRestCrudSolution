@@ -1,0 +1,1 @@
+java -cp RestCRUD.jar restcrud.RestCRUD 8080 localhost public/
